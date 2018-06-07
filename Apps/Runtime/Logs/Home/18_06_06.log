@@ -1,0 +1,104 @@
+[ 2018-06-06T10:18:29+08:00 ] 127.0.0.1 /zd_townsmen/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-06T11:10:46+08:00 ] 127.0.0.1 /zd_townsmen/index.php/Home/Mall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ct_goods_type` [ RunTime:0.0160s ]
+SQL: SELECT `tid`,`name` FROM `ct_goods_type` WHERE `status` = 1  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: type_id D:\wamp64\www\zd_townsmen\Apps\Home\Controller\MallController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ct_goods` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'aw.aw_id' in 'field list'
+ [ SQL语句 ] : SELECT aw.aw_id,aw.name,aw.percentage as scale,pz.pz_id,pz.prize,pz.percentage,pz.type,pz.amount,pz.remainder FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc 
+ERR: 1054:Unknown column 'aw.aw_id' in 'field list'
+ [ SQL语句 ] : SELECT aw.aw_id,aw.name,aw.percentage as scale,pz.pz_id,pz.prize,pz.percentage,pz.type,pz.amount,pz.remainder FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc 
+
+[ 2018-06-06T11:13:46+08:00 ] 127.0.0.1 /zd_townsmen/index.php/Home/Mall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_goods_type` [ RunTime:0.0020s ]
+SQL: SELECT `tid`,`name` FROM `ct_goods_type` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type_id D:\wamp64\www\zd_townsmen\Apps\Home\Controller\MallController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ct_goods` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'gd.create_time' in 'order clause'
+ [ SQL语句 ] : SELECT gd.*,gs.* FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc 
+ERR: 1054:Unknown column 'gd.create_time' in 'order clause'
+ [ SQL语句 ] : SELECT gd.*,gs.* FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc 
+
+[ 2018-06-06T11:14:12+08:00 ] 127.0.0.1 /zd_townsmen/index.php/Home/Mall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_goods_type` [ RunTime:0.0060s ]
+SQL: SELECT `tid`,`name` FROM `ct_goods_type` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type_id D:\wamp64\www\zd_townsmen\Apps\Home\Controller\MallController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ct_goods` [ RunTime:0.0010s ]
+SQL: SELECT gd.*,gs.* FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc  [ RunTime:0.0180s ]
+
+[ 2018-06-06T15:28:53+08:00 ] 127.0.0.1 /zd_townsmen/index.php/Home/Mall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_goods_type` [ RunTime:0.0220s ]
+SQL: SELECT `tid`,`name` FROM `ct_goods_type` WHERE `status` = 1  [ RunTime:0.0380s ]
+NOTIC: [8] Undefined index: type_id D:\wamp64\www\zd_townsmen\Apps\Home\Controller\MallController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ct_goods` [ RunTime:0.0320s ]
+SQL: SELECT gd.*,gs.* FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc  [ RunTime:0.0520s ]
+ERR: 模板不存在:./Apps/Home/View/Mall/index.html
+
+[ 2018-06-06T15:38:05+08:00 ] 127.0.0.1 /zd_townsmen/index.php/Home/Mall/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_goods_type` [ RunTime:0.3140s ]
+SQL: SELECT `tid`,`name` FROM `ct_goods_type` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type_id D:\wamp64\www\zd_townsmen\Apps\Home\Controller\MallController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ct_goods` [ RunTime:0.0280s ]
+SQL: SELECT gd.*,gs.* FROM `ct_goods` gd left join ct_goods_type gt on gt.tid = gd.type_id left join ct_goods_spec gs on gs.goods_id = gd.gid  WHERE gt.tid = 0 AND gd.status = 1 AND gs.status = 1 AND gt.status = 1 ORDER BY gd.create_time desc  [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.085005s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.085005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.605035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.606035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
+
