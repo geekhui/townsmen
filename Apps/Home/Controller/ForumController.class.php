@@ -8,31 +8,18 @@ namespace Home\Controller;
 class ForumController extends CommonController {
     
     public function _initialize() {
-        $user_id = session("zd_user_info.user_id");
+        $user = session("zd_login_info.user");
+        
     }
     
     // 交流讨论
-    public function index() {
+    public function index() {  
         // 置顶帖
-        $where['fp.istop'] = 1;
-        $where['fp.status'] = 1;
-        $top_posts = M("forum_post")
-            ->field("fp.pid,fp.tid,fp.uid,fp.title,reply_num,fp.post_time,ft.theme")
-            ->join("fp left join ct_forum_theme fm on ft.id = fp.tid and ft.status = 1")
-            ->where($where)
-            ->order("fp.top_time desc")
-            ->select();
+        $top_posts = A("Forum", "Event")->getPostList($istop = 1);
         $this->assign("top_post", $top_posts);
         
         // 普通帖
-        $condition['fp.istop'] = 0;
-        $condition['fp.status'] = 1;
-        $forum_posts = M("forum_post")
-            ->field("fp.pid,fp.tid,fp.uid,fp.title,reply_num,fp.post_time,ft.theme")
-            ->join("fp left join ct_forum_theme fm on ft.id = fp.tid and ft.status = 1")
-            ->where($condition)
-            ->order("fp.post_time desc")
-            ->select();
+        $forum_posts = A("Forum", "Event")->getPostList($istop = 0);
         $this->assign("post", $forum_posts);
         
         $this->display();
@@ -40,11 +27,7 @@ class ForumController extends CommonController {
     
     // 社区活动
     public function activity() {
-        $activities = M("activity")
-            ->field('ac.id,ac.activity,ac.initiator,ac.initiator_type,ac.status')
-            ->join("ac left join ct_activity_reply on ar.acid = ac.id")
-            ->order('ac.order')
-            ->select();
+        $activities = D("Forum")->getActivityData();
         $this->assign('activities', $activities);
         $this->display();
     }

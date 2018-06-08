@@ -13,6 +13,7 @@ class CommonController extends Controller {
             ]
         ];
         session("zd_login_info",$login_info);
+        
     }
     
     // 登录用户信息

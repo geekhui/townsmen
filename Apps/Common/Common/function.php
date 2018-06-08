@@ -1,9 +1,14 @@
 <?php
-// 检查验证码正确性
+// 检查验证码是否输入正确性
 function check_verify($code, $id = "")
 {
     $verify = new \Think\Verify();
     return $verify->check($code, $id);
+}
+
+// 生成唯一订单编号[中间部分8位数]
+function unique_number(){
+    return substr(implode(NULL, array_map('ord', str_split(substr(uniqid(), 7, 13), 1))), 0, 8);
 }
 
 // 获取客户端IP地址
@@ -34,23 +39,28 @@ function check_ip($ip)
     return true;
 }
 
-// 生成唯一订单编号[中间部分8位数]
-function unique_number(){
-    return substr(implode(NULL, array_map('ord', str_split(substr(uniqid(), 7, 13), 1))), 0, 8);
-}
-
-/**
- * @name    IP地址转换为整型【无符号】
- * @author  wanghui 20180529
- * @param   string  $ipstr
- * @return  int 
- */
-function ipToInter($ipstr)
+// IP地址转换无符号整型
+function ip2Plus ($ip)
 {
-    if(check_ip($ipstr)){
-        return sprintf("%u",ip2long($ipstr));
+    $iparr = explode('.',$ip);
+    // 去除填充零和非数字的值
+    $result_ip = [];
+    foreach ($iparr as $val){
+        if(is_numeric($val)){       
+            $result_ip[] = intval($val);    
+        }
+    }
+    $result_ip = implode(".", $result_ip);
+    
+    if(check_ip($result_ip)){       //检查IP地址是否合法
+        return sprintf("%u\n",ip2long($result_ip)); //ip转无符号整型
     }
     return false;
+}
+
+// 整形转IP地址
+function inter2Ip(){
+    
 }
 
 /**

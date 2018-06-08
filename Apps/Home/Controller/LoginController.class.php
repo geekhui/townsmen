@@ -15,9 +15,9 @@ class LoginController extends CommonController {
     // 用户登录
     public function login() {
         
-        $login_user = I('post.login_user');
-        $login_pwd = I('post.login_pwd');
-        $verify_code = I('post.login_code');
+        $login_user = I('post.login_user');     //登录名
+        $login_pwd = I('post.login_pwd');       //登录密码
+        $verify_code = I('post.login_code');    //验证码
         
         if (check_verify($verify_code)) {
             $this->error("验证码不正确", U("login"), 3);
