@@ -10,16 +10,15 @@ class PublicEvent extends Controller{
         $where['c_id'] = $collect_id;
         $collectstatus = M("user_collection")->where($where)->find();
         if($collectstatus){
-            return ['state'=>'fail', 'msg'=>"已收藏"];
-            $this->ajaxReturn(['code'=>0, 'state'=>'fail', 'msg'=>"已收藏"]);
+            $this->ajaxReturn(['code'=>401, 'msg'=>"已收藏"]);
         }else {
             $data = $where;
             $data['create_time'] = time();
             if(M("user_collection")->add($data)){
-                return ['code'=>1, 'state'=>'ok', 'msg'=>"收藏成功"];
+				$this->ajaxReturn(['code'=>200, 'msg'=>"收藏成功"]);
             }else {
-                return ['code'=>0, 'state'=>'fail', 'msg'=>"收藏失败"];
-            }
+				$this->ajaxReturn(['code'=>400, 'msg'=>"收藏失败"]);
+			}
         }
     }
     
@@ -31,12 +30,12 @@ class PublicEvent extends Controller{
         $collectstatus = M("user_collection")->where($where)->find();
         if($collectstatus){
             if(M("user_collection")->delete($where)){
-                return ['code'=>1, 'state'=>'ok', 'msg'=>"取消成功"];
+				$this->ajaxReturn(['code'=>200, 'msg'=>"取消成功"]);
             }else {
-                return ['code'=>0, 'state'=>'fail', 'msg'=>"取消失败"];
+				$this->ajaxReturn(['code'=>400, 'msg'=>"取消失败"]);
             }
         }else {
-            return ['code'=>0, 'state'=>'fail', 'msg'=>"数据异常"];
+			$this->ajaxReturn(['code'=>401, 'msg'=>"数据异常"]);
         }
     }
     

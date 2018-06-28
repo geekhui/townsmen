@@ -15,21 +15,23 @@ class NovelController extends CommonController {
     public function index() {
         // 头部轮播类别
         $novel_ads = A("Novel", "Event")->getHeadNovels();
-        $this->assign("ad_list", $novel_ads);
+		$result_data["ad_list"] = $novel_ads;
         
         // 小说列表
         $type_num = isset($_REQUEST['typeid']) ? intval(I('typeid')) : 1;
         $novel_list = A("Novel", "Event")->getNovelList($type_num);
-        $this->assign("finenovels", $novel_list['fine']);
-        $this->assign("usernovels", $novel_list['list']);
+		$result_data["novel_list"] = $novel_list;
+		
+        //$this->assign("finenovels", $novel_list['fine']);
+        //$this->assign("usernovels", $novel_list['list']);
         
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$result_data]);
     }
     
     // 放入书架
     public function putinBookshelf() {
         if(!session('zd_login_info.user')){
-            $this->ajaxReturn(['state'=>'fail','msg'=>'请先登录','url'=>'/Home/Login/login']);
+            $this->ajaxReturn(['code'=>300, 'msg'=>'请先登录', 'url'=>'/Home/Login/login']);
         }else{
             $user = session('zd_login_info.user');
             $novel_id = I('post.nid');
@@ -40,7 +42,7 @@ class NovelController extends CommonController {
     // 移出书架
     public function shiftoutBookshelf() {
         if(!session('zd_login_info.user')){
-            $this->ajaxReturn(['state'=>'fail','msg'=>'请先登录','url'=>'/Home/Login/login']);
+			$this->ajaxReturn(['code'=>300, 'msg'=>'请先登录', 'url'=>'/Home/Login/login']);
         }else{
             $user = session('zd_login_info.user');
             $novel_id = I('post.nid');

@@ -1,4 +1,10 @@
 <?php
+
+// MD5加密方法
+function new_md5($string, $mdstr = "ZhangDong"){
+    return md5($mdstr . md5($string . $mdstr) );
+}
+
 // 检查验证码是否输入正确性
 function check_verify($code, $id = "")
 {
@@ -53,15 +59,11 @@ function ip2Plus ($ip)
     $result_ip = implode(".", $result_ip);
     
     if(check_ip($result_ip)){       //检查IP地址是否合法
-        return sprintf("%u\n",ip2long($result_ip)); //ip转无符号整型
+        return sprintf("%u",ip2long($result_ip)); //ip转无符号整型
     }
     return false;
 }
 
-// 整形转IP地址
-function inter2Ip(){
-    
-}
 
 /**
  * description: 递归菜单

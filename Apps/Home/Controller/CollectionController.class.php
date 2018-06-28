@@ -15,27 +15,24 @@ class CollectionController extends CommonController {
     public function collectionGoods() {
         $user = session('zd_login_info.user');
         $collectgoods = A("Collection", "Event")->collectionGoods($user['uid']);
-        $this->assign("goods", $collectgoods);
     
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$collectgoods]);
     }
     
     // 我收藏的小说
     public function collectionNovel() {
         $user = session('zd_login_info.user');
         $collectnovals = A("Collection", "Event")->collectionNovels($user['uid']);
-        $this->assign("novals", $collectnovals);
         
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$collectnovals]);
     }
     
     // 我收藏的帖子
     public function collectionPosts() {
         $user = session('zd_login_info.user');
         $collectposts = A("Collection", "Event")->collectionPosts($user['uid']);
-        $this->assign("posts", $collectposts);
         
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$collectposts]);
     }
     
     // 加入收藏
@@ -45,9 +42,9 @@ class CollectionController extends CommonController {
         $c_type = intval($_REQUEST['ctype']);
         $return_number = A("Collection", "Event")->addCollection($user['uid'], $c_id, $c_type);
         switch ($return_number){
-            case 0: $this->error("收藏失败");break;
-            case 1: $this->success("收藏成功");break;
-            case 2: $this->error("已收藏");break;
+            case 0: $this->ajaxReturn(['code'=>400, 'msg'=>'收藏失败']);break;
+            case 1: $this->ajaxReturn(['code'=>200, 'msg'=>'收藏成功']);break;
+            case 2: $this->ajaxReturn(['code'=>401, 'msg'=>'已收藏']);break;
         }
     }
     
@@ -58,10 +55,10 @@ class CollectionController extends CommonController {
         $c_type = intval($_REQUEST['ctype']);
         $return_number = A("Collection", "Event")->cancelCollection($user['uid'], $c_id, $c_type);
         switch ($return_number){
-            case 0: $this->error("取消失败");break;
-            case 1: $this->success("取消成功");break;
-            case 2: $this->error("已取消收藏");break;
-            case 3: $this->error("未曾收藏");break;
+            case 0: $this->ajaxReturn(['code'=>400, 'msg'=>'取消失败']);break;
+            case 1: $this->ajaxReturn(['code'=>200, 'msg'=>'取消成功']);break;
+            case 2: $this->ajaxReturn(['code'=>401, 'msg'=>'已取消收藏']);break;
+            case 3: $this->ajaxReturn(['code'=>402, 'msg'=>'未曾收藏']);break;
         }
     }
     

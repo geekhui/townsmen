@@ -1,0 +1,60 @@
+.order_box{
+    margin-top:1.2rem;
+    width: 100%;
+    font-size: 14px;
+}
+/***订单状态***/
+#status {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: .326652rem 1.069042rem;
+    background: #fff;
+    margin-bottom: .118782rem;
+    position: relative; 
+}
+#status>a {
+    position: absolute;
+    border-radius: .445434rem;
+    border:1px solid #ff901c;
+    color: #ff901c;
+    bottom: .519673rem;
+    right: .920564rem;
+    padding: 0 .148478rem;
+    z-index: 10;
+    display: none;
+}
+#status .title { font-weight: bold  }
+
+/* 用户信息 */
+.user_info{ -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #fff; width: 100%; height: auto; padding: .356347rem 1.069042rem;}
+.user_info dt,dd{ display: inline-block; height: .54902rem; line-height: .54902rem;}
+.user_info dt{ width: 15% }
+.user_info dd{ vertical-align: top; width: 77%; height: auto }
+
+/* 商品信息 */
+.order li{ background-color: #fff; box-sizing: border-box; width: 100%; min-height: 2rem; margin-bottom: .1rem;  padding: .23rem 0 .1rem .85rem; position: relative;}
+.order li>div{ height: 100%; min-height: 2.2rem; }
+.order .img{ width: 2.3rem }
+.order .img a{ display: block; width: 100%; line-height: 2.2rem; text-align: center }
+.order li img{ width: 1.6rem; line-height: 2.2rem; margin: 0 auto; }
+.order .pay_cont{  border-bottom: .014848rem solid #ccc; width: 70%; height: 2rem; box-sizing: border-box; position: relative; }
+.pay_cont h4{  padding-right: .2rem }
+.pay_cont .order_price{ font-size: 12px; color: #ff901c }
+.order_price span{ font-size: 18px }
+.order_price b{ font-size: 14px }
+.order_price i{ display: inline-block; background: url(../images/icon2.png) no-repeat; background-size: 11.38827rem 1.469933rem; background-position: 0 0; vertical-align: bottom;	 width: .470588rem; height: .470588rem }
+.order_price span:nth-child(3){ color: red }
+.pay_cont .amount{ width: 1rem; position: absolute; right: .8rem; bottom: .45rem; color: red }
+.order_paid .order_number{ width: 100%; height: .890869rem; line-height: .890869rem; margin-top: .3rem }
+.order_number .cancle{ position:absolute; bottom: 0.05rem; right: .8rem;  padding: .05rem .3rem; border:1px solid orange; border-radius: 15px; color: orange; line-height: .45rem}
+
+/* 相关时间 */
+#order { margin: .118782rem 0; }
+#address dt { width: 1.5rem; }
+#total {  box-sizing: border-box; width: 100%; padding: .148478rem;  background-color: #fff;  padding: .326652rem 1.069042rem;}
+#total .total_score{ float: right; color: #ff901c }
+#total .total_price{ float: right; color: red }
+#timer {  background-color: #fff; margin-top: .118782rem;  font-size: 12px;  padding: .326652rem 1.069042rem; margin-bottom: 1rem }
+

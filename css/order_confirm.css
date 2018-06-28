@@ -1,0 +1,307 @@
+.order_box{
+    margin-top:1.2rem;
+    width: 100%;
+    font-size: 14px;
+}
+.address{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    padding-left: .8rem;
+    font-size: 14px;
+}
+.address a{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    font-size: 25px;
+}
+
+/* 用户信息 */
+.user_info{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: .3rem 0 .2rem .8rem;
+}
+.user_info dt,dd{
+    display: inline-block;
+    height: .54902rem;
+    line-height: .54902rem;
+}
+.user_info dt{
+    width: 15%;
+}
+.user_info dd{
+    vertical-align: top;
+    width: 75%;
+    height: auto;
+}
+/* 商品信息 */
+.order li{
+    margin-top: .3rem;
+    position: relative;
+}
+.order li>dl,
+.order li>p{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 .8rem;
+}
+.order dl{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: .08rem; 
+    width: 100%;
+    padding: .156863rem 0;
+    background-color: #fff;
+}
+.order dl dt,
+.order dl dd{
+    height: 2.5rem;
+    padding-top: .2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.order dl dt{
+    width: 30%;
+}
+.order dl dt img{
+    width: 2rem;
+    margin: auto 0;
+    vertical-align: middle;
+}
+.order dl dd{ width: 65% }
+.goods_cont h3{
+    margin-top: .2rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.score{
+    font-size: 16px;
+    color:red;
+	margin-top: .2rem; 
+}
+.score b{ font-size: 14px }
+.score span{ font-size: 18px }
+.score span:first-child{
+    font-size: 12px;
+	color: #ff901c;
+}
+.score i{
+	display: inline-block;
+	background: url(../images/icon2.png) no-repeat;
+	background-size: 11.38827rem 1.469933rem;
+	background-position: 0 0;
+	vertical-align: middle;	
+	width: .43rem;
+	height: .43rem;
+}
+.score .goods_score{
+    margin-right: .2rem;
+	color: #ff901c;
+}
+.score .goods_price{
+	color: red;
+}
+.goods_cont>p:last-child{
+	color: #666;
+	font-size: 12px;
+}
+.order .freight{ 
+    background: #fff;
+    margin-top: .2rem;
+    padding: 0 .8rem;
+}
+.order .freight span{
+    float: right;
+}
+.order dl dd >h3,
+.order dl dd >p{
+	width: 100%;
+}
+.goods_score,
+.goods_price{
+    color:red;
+	font-size: 16px;
+    width: 30%;
+}
+.amount{
+    width: 100%;
+    height: .627451rem;
+    line-height: .627451rem;
+    background-color: #fff;
+}
+.btn_pay{
+    text-align: right;
+    width: 100%;
+    margin-top: .5rem;
+    height: auto;
+}
+.btn_pay > a{
+    display: block;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 16px; 
+    background: -webkit-gradient(linear, left top, right top, from(#ffc80c) , to(#ff6416)); 
+    background: linear-gradient(to right, #ffc80c , #ff6416);  
+}
+
+/*立即付款弹窗*/
+.mask{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-color: black;
+    opacity: .6;
+    z-index: 110;
+    display: none;
+}
+
+.pop_pay{
+    background-color:white; 
+    position: fixed;
+    width: 100%;
+    min-height: 3rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    bottom:0;
+    font-size: 14px;
+    text-align: center;
+    z-index: 120;
+}
+.pop_pay li{
+    width: 100%;
+    min-height: .5rem;
+}
+.pop_pay li:first-child{
+    color: black;
+    font-size: 18px;
+    font-weight: 1000;
+    height: 1.15rem;
+    line-height: 1.15rem;
+}
+.pop_pay li:nth-child(2) p{
+    border-top: 2px solid #bebebe;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    height: 1.9rem;
+    line-height: 1.9rem;
+}
+.pop_pay .score{
+    margin-top:0;
+}
+.pop_pay .score i{
+    vertical-align: middle;
+}
+.pop_pay .score .bg_number{
+    color:#ff6416;
+    margin-left: .2rem;
+    font-size: 20px;
+}
+.pop_pay .score .bg_price{
+    font-size: 20px;
+    color:red;
+}
+.pay_methods {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    border-top: .2rem solid #bebebe;
+    border-bottom: .2rem solid #bebebe;
+    text-align: left;
+}
+.pay_methods p{
+    height: 1.5rem;
+    line-height: 1.484781rem;
+    width: 100%;
+    border-bottom: 2px solid #bebebe;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 1rem;
+}
+.pay_methods>p:last-child{
+    border: 0;
+}
+.pay_methods p b{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    margin-right: .470588rem;
+}
+.icon_alipay{
+    background: url(../images/alipay.jpg) no-repeat;
+    background-size: 1rem 1rem
+}
+.icon_wechat{
+    background: url(../images/wechat.jpg) no-repeat;
+    background-size: 1.1rem 1.1rem
+}
+.pay_methods p i{
+	display: inline-block;
+	border:	1px solid #333;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 50%;
+	width: .4rem;
+    height: .4rem;
+    float: right;
+    margin-top: .5rem
+}
+.pay_methods .checked {
+	background: url(../images/check.jpg) no-repeat;
+	background-size: .4rem .4rem;
+	border:0;
+}
+
+
+.pop_pay li:last-child{
+    height: 1rem;
+    line-height: 1rem;
+}
+.btn_paynow{ 
+    background: -webkit-gradient(linear, left top, right top, from(#ffc80c) , to(#ff6416)); 
+    background: linear-gradient(to right, #ffc80c , #ff6416);
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white
+}
+
+
+/* 警告弹窗 */
+.pop_warn{
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 5rem;
+    text-align: center;
+    opacity: .8;
+    color:white;
+    height: .6rem;
+    line-height: .6rem;
+    z-index: 9999;
+    display: none;
+}
+.pop_warn i{
+    background-color: black;
+    padding: 5px 10px;
+    width: auto;
+    border-radius: 3px;
+}

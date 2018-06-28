@@ -16,8 +16,7 @@ class CartController extends CommonController {
         $user = session("zd_login_info.user");
         $goods_list = A("Cart", "Event")->getCartGoods($user['uid']);
         
-        $this->assign("list",$goods_list);
-        $this->display();
+		$this->ajaxReturn(['code'=>100, 'data'=>$goods_list]);
     }
     
     // 删除单个购物车商品
@@ -25,9 +24,9 @@ class CartController extends CommonController {
         $cart_id = intval($_REQUEST['cart_id']);
         $user = session("zd_login_info.user");
         if(A("Cart", "Event")->deleteCartGoods($user['uid'], $cart_id)){
-            $this->success("删除成功");
+			$this->ajaxReturn(['code'=>200, 'msg'=>'删除成功']);
         }else{
-            $this->error("删除失败");
+			$this->ajaxReturn(['code'=>400, 'msg'=>'删除失败']);
         }
     }
     
@@ -36,9 +35,9 @@ class CartController extends CommonController {
         $cart_ids = $_REQUEST['cart_ids'];
         $user = session("zd_login_info.user");
         if(A("Cart", "Event")->batchDeleteCartGoods($user['uid'], $cart_ids)){
-            $this->success("删除成功");
+            $this->ajaxReturn(['code'=>200, 'msg'=>'删除成功']);
         }else{
-            $this->error("删除失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'删除失败']);
         }
     }
     
@@ -47,9 +46,9 @@ class CartController extends CommonController {
         $cart_id = intval($_REQUEST['cart_id']);
         $user = session("zd_login_info.user");
         if(A("Cart", "Event")->increaseGoodsNum($user['uid'], $cart_id)){
-            $this->success("更新成功");
+			$this->ajaxReturn(['code'=>200, 'msg'=>'更新成功']);
         }else{
-            $this->error("更新失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'更新失败']);
         }
     }
     
@@ -58,9 +57,9 @@ class CartController extends CommonController {
         $cart_id = intval($_REQUEST['cart_id']);
         $user = session("zd_login_info.user");
         if(A("Cart", "Event")->decreaseGoodsNum($user['uid'], $cart_id)){
-            $this->success("更新成功");
+            $this->ajaxReturn(['code'=>200, 'msg'=>'更新成功']);
         }else{
-            $this->error("更新失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'更新失败']);
         }
     }
     
@@ -70,9 +69,9 @@ class CartController extends CommonController {
         $cart_id = intval($_REQUEST['cart_id']);
         $user = session("zd_login_info.user");
         if(A("Cart", "Event")->updateGoodsNum($user['uid'], $cart_id, $number)){
-            $this->success("更新成功");
+            $this->ajaxReturn(['code'=>200, 'msg'=>'更新成功']);
         }else{
-            $this->error("更新失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'更新失败']);
         }
     }
     
@@ -80,9 +79,9 @@ class CartController extends CommonController {
     public function clearGoods() {
         $user = session("zd_login_info.user");
         if(A("Cart", "Event")->cleatCartGoods($user['uid'])){
-            $this->success("更新成功");
+            $this->ajaxReturn(['code'=>200, 'msg'=>'更新成功']);
         }else{
-            $this->error("更新失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'更新失败']);
         }
     }
     
@@ -91,17 +90,17 @@ class CartController extends CommonController {
         $cart_ids = $_REQUEST['cart_ids'];
         $user = session("zd_login_info.user");
         if(count($cart_ids) == 0){
-            $this->error("请先选中商品");
+			$this->ajaxReturn(['code'=>401, 'msg'=>'请先选中商品']);
         }else{
             // 临时订单商品列表
             $temp_goods = A("Cart", "Event")->creatTempOrder($user['uid'], $cart_ids);
-            $this->assign("list", $temp_goods);
+			$result_data['temp_goods'] = $temp_goods;
             
             // 获取用户收货地址信息
             $receive_address = M("receive_address")->where(['uid'=>$user['uid'],'status'=>1])->select();
-            $this->assign("address", $receive_address);
+			$result_data['address'] = $receive_address;
             
-            $this->display();
+            $this->ajaxReturn(['code'=>100, 'data'=>$result_data]);
         }
     }
     
@@ -116,9 +115,9 @@ class CartController extends CommonController {
         $address['address'] = $_REQUEST['address'];
         
         if(A("Cart", "Event")->creatOrder($user['uid'], $cart_ids, $address)){
-            $this->error("下单成功");
+            $this->ajaxReturn(['code'=>200, 'msg'=>'下单成功']);
         }else{
-            $this->error("下单失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'下单失败']);
         }
     }
     

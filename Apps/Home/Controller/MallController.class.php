@@ -15,14 +15,14 @@ class MallController extends CommonController {
     public function index() {
         // 商品类别
         $goods_type = M("goods_type")->where(['status'=>1])->field("tid,name")->select();
-        $this->assign("types", $goods_type);
+		$result_data["types"] = $goods_type;
         
         // 类别商品列表
         $type_id = intval($_REQUEST['type_id']);
         $goods_list = A("Mall", "Event")->getTypeGoods($type_id);
-        $this->assign("list", $goods_list);
+        $result_data["list"] = $goods_list;
         
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$result_data]);
     }
     
     // 商品详情
@@ -31,12 +31,13 @@ class MallController extends CommonController {
         $spec_id = isset($_REQUEST['spec_id']) ? intval($_REQUEST['spec_id']) : null;
         
         $goods_info = A("Mall", "Event")->getGoodsInfo($goods_id,$spec_id);
-        $this->assign("goods_pic", $goods_info['imgs']);
-        $this->assign("goods_base", $goods_info['basic']);
-        $this->assign("goods_spec", $goods_info['spec']);
-        $this->assign("goods_detail", $goods_info['detail']);
+
+        //$this->assign("goods_pic", $goods_info['imgs']);
+        //$this->assign("goods_base", $goods_info['basic']);
+        //$this->assign("goods_spec", $goods_info['spec']);
+        //$this->assign("goods_detail", $goods_info['detail']);
         
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$goods_info]);
     }   
     
     // 加入收藏
@@ -44,9 +45,9 @@ class MallController extends CommonController {
         $goods_id = intval($_REQUEST['goods_id']);
         $user = session("zd_login_info.user");
         if(A("Mall", "Event")->collectGoods($user['uid'], $goods_id)){
-            $this->success("收藏成功");
+            $this->ajaxReturn(['code'=>200, 'msg'=>'收藏成功']);
         }else{
-            $this->error("收藏失败");
+            $this->ajaxReturn(['code'=>400, 'msg'=>'收藏失败']);
         }
     }
     
@@ -57,9 +58,9 @@ class MallController extends CommonController {
         $quantity = intval($_REQUEST['quantity']);
         $user = session("zd_login_info.user");
         if(A("Mall", "Event")->addcartGoods($user['uid'], $goods_id, $spec_id, $quantity)){
-            $this->success("加入购物车成功");
+			$this->ajaxReturn(['code'=>200, 'msg'=>'加入购物车成功']);
         }else{
-            $this->error("加入购物车失败");
+			$this->ajaxReturn(['code'=>400, 'msg'=>'加入购物车失败']);
         }
     }
     

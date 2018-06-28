@@ -1,0 +1,1481 @@
+[ 2018-06-19T16:45:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-19T16:45:35+08:00 ] 127.0.0.1 /home/login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-19T16:45:39+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529397939699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:45:40+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529397940923
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T16:45:46+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529397945979
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:45:47+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529397947099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:45:48+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529397948322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:45:55+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T16:46:04+08:00 ] 127.0.0.1 /home/login/check_passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.1090s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `username` = 'test11' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T16:46:10+08:00 ] 127.0.0.1 /home/login/check_passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `username` = 'test111' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T16:46:24+08:00 ] 127.0.0.1 /home/login/check_mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `mobile` = '18257193431' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T16:46:29+08:00 ] 127.0.0.1 /home/login/check_nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `nickname` = 'asda' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T16:46:34+08:00 ] 127.0.0.1 /home/login/check_nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `nickname` = 'asda' AND `status` = 1 LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2018-06-19T16:46:34+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:46:47+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:48:50+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T16:49:02+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398142241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:49:04+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398144202
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2018-06-19T16:49:58+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T16:54:40+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T16:54:49+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398489007
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T16:54:59+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0630s ]
+ERR: 1364:Field 'identifier' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test111','521e65cad091f4334103d5841223b224','asda','18257193431','1529398498','2130706433
+','1','1')
+ERR: 1364:Field 'identifier' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test111','521e65cad091f4334103d5841223b224','asda','18257193431','1529398498','2130706433
+','1','1')
+
+[ 2018-06-19T16:57:50+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-19T16:57:54+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398673813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T16:58:01+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0030s ]
+ERR: 1364:Field 'identifier' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test111','521e65cad091f4334103d5841223b224','asda','18257193431','1529398681','2130706433
+','1','1')
+ERR: 1364:Field 'identifier' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test111','521e65cad091f4334103d5841223b224','asda','18257193431','1529398681','2130706433
+','1','1')
+
+[ 2018-06-19T17:00:29+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:00:31+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398831116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:00:37+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-19T17:01:10+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:01:12+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398872348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:01:24+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-19T17:02:09+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-19T17:02:12+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398932180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:02:13+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398933691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:02:14+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529398934892
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:02:23+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:06:52+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399211833
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-19T17:06:59+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-19T17:07:23+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399242881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:08:09+08:00 ] 127.0.0.1 /home/login/check_passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `username` = 'test11' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:08:12+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0020s ]
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test11','521e65cad091f4334103d5841223b224','asda','18257193431','1529399292','2130706433','1','1')
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test11','521e65cad091f4334103d5841223b224','asda','18257193431','1529399292','2130706433','1','1')
+
+[ 2018-06-19T17:11:34+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-19T17:13:44+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399623984
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:13:56+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0080s ]
+ERR: 1364:Field 'login_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test11','521e65cad091f4334103d5841223b224','asda','18257193431','1529399636','2130706433','1','1')
+ERR: 1364:Field 'login_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test11','521e65cad091f4334103d5841223b224','asda','18257193431','1529399636','2130706433','1','1')
+
+[ 2018-06-19T17:15:52+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399751774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:16:01+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:16:11+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399771223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:16:21+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0190s ]
+ERR: 1062:Duplicate entry 'test11' for key 'username_index'
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test11','521e65cad091f4334103d5841223b224','asda','18257193431','1529399780','2130706433','1','1')
+ERR: 1062:Duplicate entry 'test11' for key 'username_index'
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test11','521e65cad091f4334103d5841223b224','asda','18257193431','1529399780','2130706433','1','1')
+
+[ 2018-06-19T17:17:25+08:00 ] 127.0.0.1 /home/login/check_passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `username` = 'test111' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:17:25+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399844913
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:17:30+08:00 ] 127.0.0.1 /home/login/check_passport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_user_login` WHERE `username` = 'test123' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-19T17:17:45+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-19T17:17:50+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399869845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:18:00+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-19T17:18:03+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399883100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:18:04+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399884253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:18:05+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399885173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-19T17:18:13+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-19T17:18:20+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399900076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:18:33+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'email_index'
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529399913','2130706433','1','1')
+ERR: 1062:Duplicate entry '' for key 'email_index'
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529399913','2130706433','1','1')
+
+[ 2018-06-19T17:19:14+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399954048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:19:27+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0020s ]
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529399967','2130706433','1','1')
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529399967','2130706433','1','1')
+
+[ 2018-06-19T17:19:43+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529399983036
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-19T17:19:56+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'passport_index'
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529399996','2130706433','1','1')
+ERR: 1062:Duplicate entry '' for key 'passport_index'
+ [ SQL语句 ] : INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529399996','2130706433','1','1')
+
+[ 2018-06-19T17:20:33+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400032948
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:20:42+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529400042','2130706433','1','1') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0340s ]
+ERR: 1364:Field 'realname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('7')
+ERR: 1364:Field 'realname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('7')
+
+[ 2018-06-19T17:22:33+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400152892
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:22:39+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400158884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:22:41+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400161267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:22:44+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400164092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-19T17:22:52+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529400172','2130706433','1','1') [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0320s ]
+ERR: 1364:Field 'id_card' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('8')
+ERR: 1364:Field 'id_card' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('8')
+
+[ 2018-06-19T17:23:43+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400223267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:23:49+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:23:55+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400235017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:24:03+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0140s ]
+SQL: INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529400243','2130706433','1','1') [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0160s ]
+ERR: 1364:Field 'type' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('9')
+ERR: 1364:Field 'type' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('9')
+
+[ 2018-06-19T17:25:51+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400351258
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:25:54+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400354378
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:26:02+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529400361','2130706433','1','1') [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0010s ]
+ERR: 1364:Field 'type' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('10')
+ERR: 1364:Field 'type' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ct_user_info` (`uid`) VALUES ('10')
+
+[ 2018-06-19T17:26:58+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400418592
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-19T17:27:04+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400424401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:27:07+08:00 ] 127.0.0.1 /home/login/verify/?timestamp=1529400426937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:27:19+08:00 ] 127.0.0.1 /home/login/user_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0170s ]
+SQL: INSERT INTO `ct_user_login` (`username`,`password`,`nickname`,`mobile`,`reg_time`,`reg_ip`,`reg_device`,`status`) VALUES ('test123','521e65cad091f4334103d5841223b224','asda','18257193431','1529400439','2130706433','1','1') [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0910s ]
+SQL: INSERT INTO `ct_user_info` (`uid`) VALUES ('11') [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:33:53+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0110s ]
+SQL: SELECT `uid`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '521e65cad091f4334103d5841223b224' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: is_long D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 217 行.
+SQL: UPDATE `ct_user_login` SET `login_time`='1529400833',`login_ip`='2130706433',`login_device`='1',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.1160s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0010s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: timeout D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 231 行.
+
+[ 2018-06-19T17:34:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:34:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T17:37:52+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0170s ]
+SQL: SELECT `uid`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '521e65cad091f4334103d5841223b224' LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: userInfo D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 218 行.
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: UPDATE `ct_user_login` SET `identifier`='0eb2963b9abc2b765dbf873a347ce763',`token`='f1c63ea541621fe1592d2e2382bfd830',`timeout`='1530005872',`login_time`='1529401072',`login_ip`='2130706433',`login_device`='1',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0020s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0000s ]
+
+[ 2018-06-19T17:38:25+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:38:39+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:39:00+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:39:14+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:40:19+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0250s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:41:00+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:41:20+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:42:00+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0260s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:43:12+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0280s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-19T17:43:26+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:43:38+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0370s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T17:44:05+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0170s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+
+[ 2018-06-19T17:44:14+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0140s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+
+[ 2018-06-19T17:45:33+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0230s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+
+[ 2018-06-19T17:47:15+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0250s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+
+[ 2018-06-19T17:49:25+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0270s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '0eb2963b9abc2b765dbf873a347ce763' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+
+[ 2018-06-19T17:49:40+08:00 ] 127.0.0.1 /home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T17:49:46+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0120s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '521e65cad091f4334103d5841223b224' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: UPDATE `ct_user_login` SET `identifier`='473f00bd8794a6991b3306bcde7ee70e',`token`='c01f04d665dd991a18e1e77040653009',`timeout`='1530006586',`login_time`='1529401786',`login_ip`='2130706433',`login_device`='1',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0010s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0000s ]
+
+[ 2018-06-19T17:49:55+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0100s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '473f00bd8794a6991b3306bcde7ee70e' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+
+[ 2018-06-19T17:50:12+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '473f00bd8794a6991b3306bcde7ee70e' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ZhangDong D:\wamp64\www\zd_townsmen\Apps\Common\Common\function.php 第 5 行.
+SQL: UPDATE `ct_user_login` SET `login_time`='1529401812',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.0870s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0180s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0010s ]
+
+[ 2018-06-19T18:30:41+08:00 ] 127.0.0.1 /home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T18:31:27+08:00 ] 127.0.0.1 /home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T18:39:06+08:00 ] 127.0.0.1 /home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T18:39:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T18:40:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T18:40:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-19T18:40:58+08:00 ] 127.0.0.1 /home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T18:41:10+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0270s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '5277fdce77049a04fabf5618a31446e4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T18:41:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-19T18:41:37+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '5277fdce77049a04fabf5618a31446e4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-19T19:00:34+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0940s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '5277fdce77049a04fabf5618a31446e4' LIMIT 1   [ RunTime:0.0210s ]
+
+[ 2018-06-19T19:00:51+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0380s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '5277fdce77049a04fabf5618a31446e4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-19T19:00:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T19:01:11+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0280s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '8bfa202eb3e569e7e9ef6d394da0a8c7' LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `ct_user_login` SET `identifier`='81f92528de77bfcd454898834e872886',`token`='8e839960cee2a92db67dd9f4cb34b03b',`timeout`='1530010870',`login_time`='1529406070',`login_ip`='2130706433',`login_device`='1',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.2830s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.1400s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0200s ]
+
+[ 2018-06-19T19:01:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T19:01:45+08:00 ] 127.0.0.1 /home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '81f92528de77bfcd454898834e872886' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ct_user_login` SET `login_time`='1529406105',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.0850s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0240s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0000s ]
+
+[ 2018-06-19T19:01:50+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.036002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.037003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-19T19:03:27+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2018-06-19T19:03:49+08:00 ] 127.0.0.1 /Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0170s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '81f92528de77bfcd454898834e872886' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ct_user_login` SET `login_time`='1529406229',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0260s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0010s ]
+
+[ 2018-06-19T19:04:24+08:00 ] 127.0.0.1 /Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0320s ]
+SQL: SELECT `uid`,`status`,`username`,`token`,`timeout` FROM `ct_user_login` WHERE `identifier` = '81f92528de77bfcd454898834e872886' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ct_user_login` SET `login_time`='1529406264',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0250s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0010s ]
+
+[ 2018-06-19T19:04:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

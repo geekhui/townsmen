@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Cache-Control" content="cache" />
+		<meta name="viewport" content="width=device-width,initial-scale=1 user-scalable=no"/>
+		<script src="js/flexible.js"></script>
+		<title>飞贷网</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/comm.css"  />
+        <style>
+            body{ background-color: #060927; color:white; font-size: .207869rem;}
+            a { font-size: .207869rem;}
+            input { font-size: 16px !important; }
+            #pop { position: fixed; margin: auto; left: 0; right: 0; bottom: 45%;     text-align: center; display: none; z-index: 9999; opacity: 1; -webkit-transition: all .5s linear; transition: all .5s linear}
+            #pop i { padding: .445434rem; border-radius: 8px; background: rgba(0, 0, 0, .7); color: white; font-size: 16px;}
+            .content_box a{ color:white }
+            #top { width: 100%; min-height: 7.423905rem; margin-bottom:.5rem }
+            #middle {  width: 95%; margin: 0 auto; padding-bottom: .5rem; height: auto; text-align: center;  -webkit-box-sizing: border-box;          box-sizing: border-box;  background: -webkit-gradient(linear, left top, right top, from(#432269), to(#162072));  background: linear-gradient(to right, #432269, #162072);  position: relative; }
+            #middle>img {  position: absolute;  top: -1.5rem;  right: -2.5%;  width: 1.826281rem;  height: 2.345954rem;  z-index: 10 }
+            #middle input{ margin-top: .8rem; width: 90%; height: 1.336303rem; text-indent: 3em; }
+            #middle .hidden { width: 90%; height: auto; margin: 0 auto; margin-top: .296956rem; text-align: left; display: none; }
+            #middle .hidden p{ position: relative; }
+            #middle .icon_phone {  position: absolute; font-size: 45px; color: #888; top: 1.3rem; left: .8rem; }
+            #middle .icon { position: absolute; font-size: 35px; color: #888; bottom: .3rem; left: .3rem;}
+            #middle .hidden #code { width: 46%; margin-top: .445434rem; margin-right: 6%; text-indent: 1em; }
+            #middle .code {  display: inline-block;  width: 46%; height: 1.336303rem; vertical-align: middle; text-align: center; line-height: 1.336303rem;  font-size: 16px; background-color: #FE7F3E; border-radius: .118782rem; }
+            #middle .forbidden { color:#222; background-color: #5c3304; }
+            #middle #password { width: 100%; margin-top: .148478rem }
+            #middle .info {  height: .8rem;  line-height: .8rem; }
+            .btn_register {  display:inline-block;  width: 95%;  height: 1.336303rem;  background-color: #FE7F3E;   line-height: 1.336303rem; font-weight: bold; margin-bottom: .8rem; font-size: 18px;}
+            .btn_already {  background: -webkit-gradient(linear, left top, right top, from(#5F5BF7), to(#623ACF));  background: linear-gradient(to right, #5F5BF7, #623ACF);  padding: .2rem .5rem; border-radius: .6rem;}
+            #bottom { width: 95%; margin: 0 auto; margin-top: .5rem;  min-height: 2.969562rem;  background: -webkit-gradient(linear, left top, right top, from(#432269), to(#162072));  background: linear-gradient(to right, #432269, #162072);  padding-bottom: .445434rem; }
+            #bottom>p:first-child,
+            #middle .mid_top{  width: 100%; height: .3rem;  background-color: #FA1853;  border-top-left-radius: .118782rem; border-top-right-radius: .118782rem;}
+            #middle  .mid_top{ background-color: #29A9FF;}
+            #bottom h2{ text-align: center; margin: .3rem 0; }
+            #bottom ul { margin-bottom: .5rem ;  }
+            #bottom ul li{ margin: .2rem .1rem; font-size: 14px; text-align: justify }
+            #bottom ul li>i:first-child { background-color: #F14745; border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-left-radius: 50%; display: inline-block; width: 1em; text-align: center; margin-right: .3em;}
+            #bottom .time { color: #FE7F3E; }
+        </style>
+    </head>
+<body>
+    <div class="mask"></div>
+    <!--页头-->
+    <!-- 页面主体 -->
+    <div class="container">
+        <div class="content_box">
+            <div id="pop"></div>
+            <div id="top">
+                <img src="images/feidai.jpg" >
+            </div>
+            <div id="middle">
+                <img src="images/fat.png" >
+                <p class="mid_top"></p>
+                <p><i class="fa fa-mobile-phone fa-lg icon_phone"></i><input id="phone" type="number" placeholder="请输入常用手机号码"></p>
+                <div class="hidden">
+                    <p><i class="fa fa-lock fa-lg icon"></i><input id="password" type="password" placeholder="请输入6-20位登录密码"></p>
+                    <p>
+                        <input id="code" type="text" placeholder="短信验证码">
+                        <a class="code"  href="javascript:;">获取验证码</a>
+                    </p>
+                </div>
+                <p class="info"></p>
+                <p><a class="btn_register" href="javascript:;">立即注册</a></p>
+                <p><a class="btn_already" href="javascript:;">如已投资请点击领取 ></a></p>
+            </div>
+            <div id="bottom">
+                <p></p>
+                <h2><i></i> 活动规则</h2>
+                <ul>
+                    <li><i>1</i> 本活动仅限 <i class="time">2017年12月29日0点</i>后注册飞贷网的新用户参加，每个首次投资的用户只能参加一次 </li>
+                    <li><i>2</i> 视频会员月卡仅限领取一种，投资用户一旦领取成功之后不可重复领取。</li>
+                    <li><i>3</i> 用户实名认证之后所送的优酷土豆黄金会员周卡，连同投资之后领取的月卡一并发放给用户，只认证不投资则无法领取</li>
+                    <li><i>4</i> 为保证真实用户权益，飞贷网活动均已启动防刷监测系统，如用户被系统判定为注册虚假账号、恶意刷奖等作弊行为，则取消其活动资格。</li>
+                    <li><i>5</i> 本次活动的最终解释权归飞贷网所有。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/jquery.js" ></script>
+    <script type="text/javascript">
+        "use strict";
+
+        function vali() {
+            //手机号，密码验证
+            var regexp = /^1[3-9]\d{9}$/;
+            var phone = $("#phone").val().replace(/(^\s*)|(\s*$)/g, "");
+            var password = $("#password").val().replace(/(^\s*)|(\s*$)/g, "");
+            if (!phone) {
+                $(".info").html("请输入手机号");return false;
+            }
+            if (!regexp.test(parseInt(phone))) {
+                $(".info").html("请输入正确格式手机号");
+                return false;
+            }
+            if (!password) {
+                $(".info").html("请输入密码");return false;
+            }
+            // console.log(password.length)
+            if (password.length < 6 || password.lenght > 20) {
+                $(".info").html("请输入6-20位登录密码");
+                return false;
+            }
+            $(".info").html("  ");
+            return true;
+        }
+
+        $(".btn_register").click(function () {
+            //注册
+            var checked = vali();
+            var code = $("#code").val().replace(/(^\s*)|(\s*$)/g, "");
+            var phone = $("#phone").val().replace(/(^\s*)|(\s*$)/g, "");
+            var password = $("#password").val().replace(/(^\s*)|(\s*$)/g, "");
+            if (!code) {
+                $(".info").html("请填写短信验证码");return;
+            }
+
+            if (checked && code) {
+                $(".info").html(" ");
+                $.ajax({
+                    type: 'POST',
+                    url: "http://ad.73776.com/index.php/sdk/Feidai/rg",
+                    data: { phone: phone, password: password, code: code },
+                    success: function success(response) {
+                        $("#pop").html("<i>注册成功</i>").show();
+                    }
+                });
+            }
+        });
+
+        $(".code").click(function () {
+            console.log(123);
+            //验证码
+            if ($(this).hasClass("forbidden")) return;
+            var phone = $("#phone").val().replace(/(^\s*)|(\s*$)/g, "");
+            var password = $("#password").val().replace(/(^\s*)|(\s*$)/g, "");
+            var checked = vali();
+            if (checked) {
+                $(".info").html(" ");
+                $.ajax({
+                    type: 'POST',
+                    url: "http://ad.73776.com/index.php/sdk/Feidai/duanxin",
+                    data: { phone: phone, password: password },
+                    success: function success(res) {
+                        if (res.result == 0) {
+                            $(".code").addClass("forbidden");
+                            var time = 60;
+                            var timer = setInterval(function () {
+                                time--;
+                                $(".code").html(time + "后重新重获");
+                            }, 1000);
+                            setTimeout(function () {
+                                clearInterval(timer);
+                                $(".code").removeClass("forbidden").html("获取验证码");
+                            }, 60 * 1000);
+                        } else {
+                            $('.info').html("该手机已注册");
+                        }
+                    }
+                });
+            }
+        });
+
+        $("#phone").blur(function () {
+            $(".hidden").show();
+        });
+    </script>
+</body>
+</html>

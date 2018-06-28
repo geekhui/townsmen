@@ -1,0 +1,113 @@
+.list_container{
+    margin-top:1.2rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 16px; 
+}
+.select_box{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: right;
+    vertical-align: middle;
+}
+.select_box a{
+    padding: .25rem 1rem .25rem 0;
+    color: #8d8d8d;
+}
+
+/*排序弹窗*/
+.pop_options{
+    background-color: #fff;
+    color: #8d8d8d;
+    width: 6rem;
+    position: absolute;
+    top: 2.25rem;
+    right: .4rem;
+    z-index: 60;
+    border-top:0;
+    -webkit-box-shadow:-3px 0 10px #888,   
+    3px 0 10px #888,     
+    0 -3px 0px white,     
+    3px 0 10px #888;
+            box-shadow:-3px 0 10px #888,   
+    3px 0 10px #888,     
+    0 -3px 0px white,     
+    3px 0 10px #888; 
+}
+.pop_options li{
+    height: 1rem;
+    line-height: 1rem;
+    padding-left: 1.4rem;
+    border-bottom: 1px solid #999;
+}
+.pop_options li:last-child{ border:0 }
+.icon_check{
+    color: orange;
+    float: right;
+    margin: .2rem .7rem 0 0;
+    font-size: 18px;
+}
+
+/* 商品列表 */
+.goods_list{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.goods_list li{
+    background-color: #fff;
+    margin-bottom: .12rem;
+    padding: .2rem .8rem
+}
+.goods_item{ -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100% }
+.goods_item dt{
+    display: inline-block;
+    width: 25%;
+    min-height: 2.5rem;
+}
+.goods_item dt img{
+    width: 1.8rem;
+    margin-top: .3rem;
+    border-radius: 10px; 
+}
+.goods_item dd{ display: inline-block; width: 70% }
+.goods_item dd h3{ font-size: 18px }
+.goods_cont h3{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.score{
+    font-size: 18px;
+    color:red;
+	margin-top: .2rem; 
+}
+.score span:first-child{
+    font-size: 12px;
+    color: #ff901c;
+    margin-right: .2rem;
+}
+.score i{
+	display: inline-block;
+	background: url(../images/icon_zd.jpg) no-repeat;
+	background-size: .392157rem .392157rem;
+	width: .43rem;
+    height: .43rem;
+    margin-bottom: -.08rem;
+}
+.score .goods_score{ margin-right: .2rem; color: #ff901c }
+.score .goods_price{ color: red }
+.goods_price b{ font-size: 14px }
+.goods_cont>p:last-child{ color: #666; font-size: 12px }
+.mask{
+    z-index: 50;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: .1;
+    display: none;
+}

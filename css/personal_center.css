@@ -1,0 +1,101 @@
+.center_box{
+	padding-top: 1.2rem;
+	font-size: 14px;
+}
+.center_box>div{
+	padding: .4rem .8rem;
+	margin-bottom: .3rem;
+	overflow: hidden;
+}
+.user_info{
+	background: url(../images/bg_personal.jpg) no-repeat;
+	background-size: 9.502598rem 4.454343rem;
+	min-height: 3rem;
+}	
+.user_info img{
+	width: 2.5rem;
+	border-radius: 50%;
+	margin-right: .5rem;
+	float: left;
+}
+.user_info div{
+	padding-top: .5rem;
+	width: 60%;
+	float: left;
+}
+.user_score{
+	width: 100%;
+	margin-top: .2rem;
+	position: relative;
+}
+.user_score span,
+.user_score i{
+	font-size: 12px;
+	position: relative;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-align: center;
+	height: .54902rem;
+	line-height: .54902rem;
+	width: 2rem;
+}
+.user_score span{
+	background-color: #ff993e;
+	border-top-left-radius: .461361rem;
+	border-bottom-left-radius: .461361rem;
+	color:white;
+	padding: 1px 0;
+}
+.user_score i{
+	color:#ffa970;
+	border:1px solid #ff993e;
+	border-top-right-radius: .461361rem;
+	border-bottom-right-radius: .461361rem;
+}
+
+
+.recharge {
+	position: absolute;
+	right: 1rem;	
+	top: 4rem;
+	display: inline-block;
+	width: 1.8rem;
+	height: .6rem;
+	line-height: .6rem;
+	text-align: center;
+	border-radius: .3rem;
+	color: white;
+	background-color: orange;
+}
+
+/***账号绑定***/
+.bind_account{
+	width: 100%;
+	padding: .3rem 0;
+	background-color: #fff;
+}
+.bind_account li{
+	width: 3rem;
+	height: 3rem;
+	text-align: center;
+}
+.bind_account li i{
+	display: block;
+	width: 1.5rem; 
+	height: 1.5rem;
+	margin: .2rem auto; 
+	background: -webkit-gradient(linear, left top, right top, from(#ffc80c) , to(#ff6416)); 
+	background: linear-gradient(to right, #ffc80c , #ff6416);
+	border-radius: 50%;
+}
+.bind_account .bind{
+	background: url(../images/icon2.png) no-repeat;
+	background-size: 12.576095rem 1.469933rem;
+	background-position: -7.9rem 0;
+}
+
+.bind_account .logout{
+	background: url(../images/logout.jpg) no-repeat;
+	background-size: 1.5rem 1.5rem;
+}

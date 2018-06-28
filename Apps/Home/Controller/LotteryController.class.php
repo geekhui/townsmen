@@ -19,7 +19,7 @@ class IndexController extends CommonController {
     public function index() {
         $lottery = A("Lottery", "Event")->allPrizeData();
      
-        $this->display();
+        $this->ajaxReturn(['code'=>100, 'data'=>$lottery]);
     }
     
     /*
@@ -49,12 +49,12 @@ class IndexController extends CommonController {
             $data['msg'] = $prize_arr[$prize_id]['type'];
             $data['prize_title'] = $prize_arr[$prize_id]['title'];
             //             echo json_encode($data);exit;   //以json数组返回给前端
-            $this->ajaxReturn($data, 'json');
+            $this->ajaxReturn(['code'=>100, 'data'=>$data]);
         }else{
             $data['msg'] = $prize_data[$awards_id][0]['type'];
             $data['prize_title'] = $prize_data[$awards_id][0]['title']; //中奖奖品
             //             echo json_encode($data);exit;
-            $this->ajaxReturn($data, 'json');
+            $this->ajaxReturn(['code'=>100, 'data'=>$data]);
         }
     }
     
