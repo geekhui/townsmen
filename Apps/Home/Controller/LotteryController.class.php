@@ -9,7 +9,10 @@ class IndexController extends CommonController {
     protected $lottery_model;
     
     public function _initialize() {
-        parent::_initialize();
+        parent::_initialize(); 
+        if(!isset($_SESSION['zd_login_info'])){
+            A("Login")->login();
+        }
     
         $lottery_model = D('Lottery');
         $this->lottery_model = $lottery_model;

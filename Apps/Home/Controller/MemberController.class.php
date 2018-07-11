@@ -8,7 +8,10 @@ namespace Home\Controller;
 class IndexController extends CommonController {
     
     public function _initialize() {
-        
+        parent::_initialize();
+        if(!isset($_SESSION['zd_login_info'])){
+            A("Login")->login();
+        }
     }
     
     public function index() {

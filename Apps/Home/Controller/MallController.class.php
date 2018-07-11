@@ -8,7 +8,10 @@ namespace Home\Controller;
 class MallController extends CommonController {
     
     public function _initialize() {
-        
+        parent::_initialize();
+        if(!isset($_SESSION['zd_login_info'])){
+            A("Login")->login();
+        }
     }
     
     // 商城首页

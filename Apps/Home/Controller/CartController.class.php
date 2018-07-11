@@ -8,7 +8,10 @@ namespace Home\Controller;
 class CartController extends CommonController {
     
     public function _initialize() {
-        
+        parent::_initialize();
+        if(!isset($_SESSION['zd_login_info'])){
+            A("Login")->login();
+        }
     }
     
     // 购物车商品列表

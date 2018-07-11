@@ -8,8 +8,10 @@ namespace Home\Controller;
 class ForumController extends CommonController {
     
     public function _initialize() {
-        $user = session("zd_login_info.user");
-        
+        parent::_initialize();
+        if(!isset($_SESSION['zd_login_info'])){
+            A("Login")->login();
+        } 
     }
     
     // 交流讨论

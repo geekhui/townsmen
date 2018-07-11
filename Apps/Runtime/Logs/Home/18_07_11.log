@@ -1,0 +1,402 @@
+[ 2018-07-11T10:03:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.170010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2018-07-11T11:28:02+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+NOTIC: [8] Undefined index: login_user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: login_pwd D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 239 行.
+
+[ 2018-07-11T13:24:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.184011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.184011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.616036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.617036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.052003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.052003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.118006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.120006s ]
+
+[ 2018-07-11T13:24:20+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.3820s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '8bfa202eb3e569e7e9ef6d394da0a8c7' LIMIT 1   [ RunTime:0.0610s ]
+SQL: UPDATE `ct_user_login` SET `identifier`='81f92528de77bfcd454898834e872886',`token`='4af398101acd8c46676c85db6f44031d',`timeout`='1532582660',`login_time`='1531286660',`login_ip`='2130706433',`login_device`='1',`login_num`=login_num+1 WHERE `uid` = 11 [ RunTime:0.4150s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0050s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0030s ]
+
+[ 2018-07-11T13:24:26+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0280s ]
+SQL: SELECT `uid`,`status`,`username`,`token` FROM `ct_user_login` WHERE `identifier` = '81f92528de77bfcd454898834e872886' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1265:Data truncated for column 'login_ip' at row 1
+ [ SQL语句 ] : UPDATE `ct_user_login` SET `login_time`='1531286666',`login_num`=login_num+1,`login_ip`='127.0.0.1' WHERE `uid` = 11
+ERR: 1265:Data truncated for column 'login_ip' at row 1
+ [ SQL语句 ] : UPDATE `ct_user_login` SET `login_time`='1531286666',`login_num`=login_num+1,`login_ip`='127.0.0.1' WHERE `uid` = 11
+
+[ 2018-07-11T13:26:53+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0160s ]
+SQL: SELECT `uid`,`status`,`username`,`token` FROM `ct_user_login` WHERE `identifier` = '81f92528de77bfcd454898834e872886' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ct_user_login` SET `login_time`='1531286813',`login_num`=login_num+1,`login_ip`='2130706433' WHERE `uid` = 11 [ RunTime:0.0760s ]
+SQL: SHOW COLUMNS FROM `ct_user_info` [ RunTime:0.0180s ]
+SQL: SELECT ui.uid,ui.score,ul.username,ul.mobile,ul.email,ul.passport,ul.nickname FROM `ct_user_info`  ui left join ct_user_login ul on ul.uid = ui.uid  WHERE ul.status = 1 AND ul.uid = '11'  [ RunTime:0.0010s ]
+
+[ 2018-07-11T13:27:08+08:00 ] 127.0.0.1 /index.php/home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-11T13:27:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-11T13:27:30+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0280s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T13:27:36+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-07-11T13:27:40+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0140s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T13:27:42+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0240s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T13:28:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-11T13:28:48+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0190s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '186ddb972d9642ac49756d6814d17d6f' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T13:28:49+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '186ddb972d9642ac49756d6814d17d6f' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T13:28:50+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '186ddb972d9642ac49756d6814d17d6f' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-07-11T13:28:53+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0700s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '186ddb972d9642ac49756d6814d17d6f' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-07-11T14:23:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041003s ]
+
+[ 2018-07-11T14:23:43+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0120s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0080s ]
+
+[ 2018-07-11T14:23:46+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0350s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T14:23:48+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `ct_user_login` [ RunTime:0.0100s ]
+SQL: SELECT `uid`,`username`,`status` FROM `ct_user_login` WHERE `username` = 'test123' AND `password` = '748924b8359a54d26ac38e963077204c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-07-11T14:49:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-11T14:49:55+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp64\www\zd_townsmen\Apps\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-11T14:50:05+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:22+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:23+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:28+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:29+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:30+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+
+[ 2018-07-11T14:50:31+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\wamp64\www\zd_townsmen\Apps\Home\Controller\LoginController.class.php 第 173 行.
+

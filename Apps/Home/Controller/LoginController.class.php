@@ -92,7 +92,6 @@ class LoginController extends CommonController {
         if($result_check == 200){       //验证通过
             $data['username'] = $passport;  
             $data['password'] = new_md5($password);
-//             $data['password'] = md5($password);
             $data['nickname'] = $nickname;
             $data['mobile'] = $mobile;
             $data['reg_time'] = time();
@@ -122,7 +121,7 @@ class LoginController extends CommonController {
         $verify_code = $_POST['verifycode'];
         if(!$password || !$mobile || !$nickname || !$verify_code){
             $this->ajaxReturn(['code'=>400, 'msg'=> "参数缺失"]);
-        }elseif (check_verify($verify_code)) {
+        }elseif (!check_verify($verify_code)) {
             $this->ajaxReturn(['code'=>402, 'msg'=> "验证码不正确"]);
         }
         
@@ -181,7 +180,7 @@ class LoginController extends CommonController {
                         $this->ajaxReturn(['code'=>405, 'msg'=>'登录失败，登录标识错误']);
                     }elseif (time() > $user_info['timeout'])      //永久登录时间有效期超时
                     {
-                        $this->ajaxReturn(['code'=>406, 'msg'=>'登录失败，登录帐号已过期']);
+                        $this->ajaxReturn(['code'=>406, 'msg'=>'登录失败，登录标识已过期']);
                         /**
                          * @todo 若是要做永久登录，此处可以重新生成永久登录标识并设定一个新的cookie即可。
                          */
@@ -217,7 +216,7 @@ class LoginController extends CommonController {
                         } else {
                             $data['login_time'] = time();
                             $data['login_num'] = array('exp', 'login_num+1');
-                            $data['login_ip'] = getRealIp();
+                            $data['login_ip'] = ip2Plus(getRealIp());
                             $userLogin = M("user_login")->where(['uid'=>$user_info['uid']])->save($data);
                             if($userLogin){
                                 $userInfo = D("User")->getUserData($user_info['uid']);
@@ -234,90 +233,106 @@ class LoginController extends CommonController {
                 }else {
                     $this->ajaxReturn(['code'=>408, 'msg'=>"账号不存在"]);
                 }
-            }else {      // C
-                $login_user = $_POST['login_user'];     //登录名
-                $login_pwd = $_POST['login_pwd'];       //登录密码       
-                if(!$login_user || !$login_pwd) $this->ajaxReturn(['code'=>401, 'msg'=>"参数缺失"]);
-                
-                if(I('post.login_code') !== null){
-                    $verify_code = I('post.login_code');    //验证码
-                    if (check_verify($verify_code)) {
-                        $this->ajaxReturn(['code'=>401, 'msg'=>"验证码不正确"]);
+            }else {      // C  
+                if($_POST){
+                    $login_user = $_POST['login_user'];     //登录名
+                    $login_pwd = $_POST['login_pwd'];       //登录密码
+                    if(!$login_user || !$login_pwd) $this->ajaxReturn(['code'=>401, 'msg'=>"参数缺失"]);
+                    
+                    if(I('post.login_code')!='' && isset($_POST['login_code'])){
+                        $verify_code = I('post.login_code');    //验证码
+                        if (!check_verify($verify_code)) {
+                            $this->ajaxReturn(['code'=>401, 'msg'=>"验证码不正确"]);
+                        }
                     }
-                }
-                
-                $login_field = A("User","Event")->getLoginField($login_user); //判断用户登录字段
-                $where[$login_field] = $login_user;
-                $where['password'] = new_md5($login_pwd);
-                $user = M("user_login")->where($where)->field('uid,username,status')->find();
-                
-                if(!empty($user)){
-                    if($user['status'] == 1){
-                        $data['identifier'] = $identifier = new_md5($user['username']);
-                        $data['token'] = $token = md5(uniqid(rand(), TRUE));
-                        $data['timeout'] = $timeout = time() + 60 * 60 * 24 * 15;    //默认15天
-                        $data['login_time'] = time();
-                        $data['login_ip'] = ip2Plus(getRealIp());
-                        $data['login_device'] = 1;
-                        $data['login_num'] = array('exp', 'login_num+1');
-                        $userLogin = M("user_login")->where(['uid'=>$user['uid']])->save($data);
-                        if($userLogin){
-                            $userInfo = D("User")->getUserData($user['uid']);
-                            session('zd_login_info.user',$userInfo);
-                            
-                            // 是否设置Cookie周期
-                            $cookie_time = isset($_REQUEST['cookie_time']) ? intval($_REQUEST['cookie_time']) : -1;        
-                            cookie("player", $identifier, $timeout);
-                
-                            $this->ajaxReturn(['code'=>200, 'msg'=>"登录成功", 'token'=>$token, 'cookie'=>"$identifier:$token"]);
-                        }else{
-                            cookie('retry_count', 1, 60);
-                            if(session("retry_count") >= 3){
+                    
+                    $login_field = A("User","Event")->getLoginField($login_user); //判断用户登录字段
+                    $where[$login_field] = $login_user;
+                    $where['password'] = new_md5($login_pwd);
+                    $user = M("user_login")->where($where)->field('uid,username,status')->find();
+                    
+                    if(!empty($user)){
+                        if($user['status'] == 1){
+                            $data['identifier'] = $identifier = new_md5($user['username']);
+                            $data['token'] = $token = md5(uniqid(rand(), TRUE));
+                            $data['timeout'] = $timeout = time() + 60 * 60 * 24 * 15;    //默认15天
+                            $data['login_time'] = time();
+                            $data['login_ip'] = ip2Plus(getRealIp());
+                            $data['login_device'] = 1;
+                            $data['login_num'] = array('exp', 'login_num+1');
+                            $userLogin = M("user_login")->where(['uid'=>$user['uid']])->save($data);
+                            if($userLogin){
+                                $userInfo = D("User")->getUserData($user['uid']);
+                                session('zd_login_info.user',$userInfo);
+                    
+                                // 是否设置Cookie周期
+                                $cookie_time = isset($_REQUEST['cookie_time']) ? intval($_REQUEST['cookie_time']) : -1;
+                                cookie("zd_player", $identifier, $timeout);
+                    
+                                session("retry_count", null);
+                                $this->ajaxReturn(['code'=>200, 'msg'=>"登录成功", 'token'=>$token, 'data'=>session('zd_login_info.user')]);
+                            }else{
+                                $this->retry_count();
+                                if(session("retry_count")>=3 && (!isset($_REQUEST['login_code']) || I('post.login_code')=='')){
+                                    $this->ajaxReturn(['code'=>700, 'msg'=>"显示验证码"]);
+                                }else{
+                                    $this->ajaxReturn(['code'=>400, 'msg'=>"登录失败"]);
+                                }
+                            }
+                        }else {
+                            $this->retry_count();
+                            if(session("retry_count")>=3 && (!isset($_REQUEST['login_code']) || I('post.login_code')=='')){
                                 $this->ajaxReturn(['code'=>700, 'msg'=>"显示验证码"]);
                             }else{
-                                $this->ajaxReturn(['code'=>400, 'msg'=>"登录失败"]);
+                                $this->ajaxReturn(['code'=>402, 'msg'=>"帐号已封停，请联系客服"]);
                             }
                         }
-                    }else {
-                        cookie('retry_count', 1, 60);
-                        if(session("retry_count") >= 3){
+                    }else{
+                        $this->retry_count();
+                        if(session("retry_count")>=3 && (!isset($_REQUEST['login_code']) || I('post.login_code')=='')){
                             $this->ajaxReturn(['code'=>700, 'msg'=>"显示验证码"]);
                         }else{
-                            $this->ajaxReturn(['code'=>402, 'msg'=>"帐号已封停，请联系客服"]);
+                            $this->ajaxReturn(['code'=>401, 'msg'=>"用户名或密码输入不正确"]);
                         }
                     }
                 }else{
-                    cookie('retry_count', 1, 60);
-                    if(session("retry_count") >= 3){
-                        $this->ajaxReturn(['code'=>700, 'msg'=>"显示验证码"]);
-                    }else{
-                        $this->ajaxReturn(['code'=>401, 'msg'=>"用户名或密码输入不正确"]);
-                    }
-                }
+                    //$this->display();
+                    redirect('shop.73776.com/#/login');
+                }  
             }
         }
     
     }
     
-//     //登录三次失败，显示验证码
-//     public function retry_count(){
-        
-//         if(!isset($_COOKIE["retry_count"])){
-// //             session("retry_count", 1);
-            
-//         }else {
-//             $_SESSION["retry_count"]++;
-//         }
-//     }
+    // 登录三次失败，显示验证码
+    private function retry_count()
+    {    
+        if(!isset($_SESSION["retry_count"])){
+            session("retry_count", 1);   
+        }else {
+            $_SESSION["retry_count"]++;
+        }
+    }
     
     // 退出登录
-    public function logout() {
+    public function logout() 
+    {
         session('zd_login_info', null);
-        session('retry_count', null);
-        cookie("auth_zdplayer", null);
+        cookie("zd_player", null);
         
         $this->ajaxReturn(['code'=>200, 'msg'=>"退出成功"]);
     }
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 
